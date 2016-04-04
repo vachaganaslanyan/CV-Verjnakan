@@ -1,0 +1,153 @@
+body{
+    background-color: #DDDDDD;
+    margin: 0px auto;
+    width: 1000px;
+    height: 700px;
+    margin-top: 20px;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div{
+    color: black;
+    display: inline-block;
+    width: 1000px;
+    border-top:  2px solid  black;
+    border-bottom: 2px solid black;
+}
+
+div p{
+    float: left;
+    margin-left: 10%;
+}
+
+
+section{
+    display: inline-block;
+    width: 1000px;
+    border-top:  2px solid  black;
+    border-bottom: 2px solid black;
+}
+
+article{
+    float: left;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-left: 2%;
+    border: 2px solid black;
+}
+
+
+button{
+    float: right;
+    position: fixed;
+    left: 1300px;
+    top: 20px;
+    height: 705px;
+    background-color: #434343;
+}
+
+form{
+    display: none;
+    width: 200px;
+}
+
+button:hover form{
+    display: block;
+}
+
+
+footer{
+    width: 1000px;
+    height: 195px;
+    border-top:  2px solid  black;
+    border-bottom: 2px solid black;
+}
+
+
+footer label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+#circle1{
+    border-radius: 5px;
+	width: 300px;
+	height: 10px;
+    display: inline-block;
+    background-color: white;
+}
+
+#circle2{
+    border-radius: 5px;
+	width: 300px;
+	height: 10px;
+    display: inline-block;
+    background-color: white;
+}
+
+#circle3{
+    border-radius: 5px;
+	width: 300px;
+	height: 10px;
+    display: inline-block;
+    background-color: white;
+}
+
+#circle4{
+    border-radius: 5px;
+	width: 300px;
+	height: 10px;
+    display: inline-block;
+    background-color: white;
+}
+
+#html{
+    border-radius: 5px;
+	width: 250px;
+	height: 10px;
+    display: block;
+    background-color: blue;
+}
+
+#css{
+    border-radius: 5px;
+	width: 230px;
+	height: 10px;
+    display: block;
+    background-color: blue;
+}
+
+#js{
+    border-radius: 5px;
+	width: 100px;
+	height: 10px;
+    display: block;
+    background-color: blue;
+}
+
+#jq{
+    border-radius: 5px;
+	width: 80px;
+	height: 10px;
+    display: block;
+    background-color: blue;
+}
+
+
+
+@media print{
+    footer{
+        display: block;
+    }
+}
