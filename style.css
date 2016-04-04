@@ -15,6 +15,14 @@ header{
 }
 
 
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float:  left;
+}
+
+
 div{
     color: black;
     display: inline-block;
@@ -147,7 +155,7 @@ footer label{
 
 
 @media print{
-    footer{
-        display: block;
+    button{
+        display: none;
     }
 }
