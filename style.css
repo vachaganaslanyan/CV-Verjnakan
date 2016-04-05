@@ -1,5 +1,5 @@
 body{
-    background-color: #DDDDDD;
+    background-color: white;
     margin: 0px auto;
     width: 1000px;
     height: 700px;
@@ -50,7 +50,7 @@ article{
     width: 300px;
     height: 300px;
     margin-left: 2%;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 
@@ -60,7 +60,7 @@ button{
     left: 1300px;
     top: 20px;
     height: 705px;
-    background-color: #434343;
+    background-color: #314853;
 }
 
 form{
@@ -73,83 +73,58 @@ button:hover form{
 }
 
 
-footer{
+.sectionSkill{
     width: 1000px;
     height: 195px;
-    border-top:  2px solid  black;
-    border-bottom: 2px solid black;
+    border: none;
 }
 
 
-footer label{
+.sectionSkill h2{
+    text-align: center;
+}
+
+.name{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: left;
-    display: inline-block;
+    border: none;
+    margin-left: 8px;
+    margin-top: 5px;
+    width: 310px;
 }
 
-#circle1{
-    border-radius: 5px;
+.line{
+    border-radius: 20px;
 	width: 300px;
 	height: 10px;
-    display: inline-block;
+    display: block;
     background-color: white;
+    margin-left: 3px;
 }
 
-#circle2{
-    border-radius: 5px;
-	width: 300px;
-	height: 10px;
-    display: inline-block;
-    background-color: white;
-}
 
-#circle3{
-    border-radius: 5px;
-	width: 300px;
-	height: 10px;
-    display: inline-block;
-    background-color: white;
-}
-
-#circle4{
-    border-radius: 5px;
-	width: 300px;
-	height: 10px;
-    display: inline-block;
-    background-color: white;
+span{
+    border-radius: 20px;
+    height: 10px;
+    display: block;
+    background-color: #007ACC;
 }
 
 #html{
-    border-radius: 5px;
 	width: 250px;
-	height: 10px;
-    display: block;
-    background-color: blue;
 }
 
 #css{
-    border-radius: 5px;
 	width: 230px;
-	height: 10px;
-    display: block;
-    background-color: blue;
 }
 
 #js{
-    border-radius: 5px;
 	width: 100px;
-	height: 10px;
-    display: block;
-    background-color: blue;
 }
 
 #jq{
-    border-radius: 5px;
 	width: 80px;
-	height: 10px;
-    display: block;
-    background-color: blue;
 }
 
 
